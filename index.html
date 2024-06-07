@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb1JB63qNOvjIC2pqEYcYYhoaxsHs46Hu9pw&usqp=CAU" alt=""> -->
+
+    <center><h1>CALCULATOR</h1></center>
+    <div id="container">
+        <div id="screen" name="screen"></div>
+        
+        <div id="main_body">
+            <button onclick="data('1')">1</button>
+            <button onclick="data('2')">2</button>
+            <button onclick="data('3')">3</button>
+            <button onclick="data('4')">4</button>
+            <button onclick="data('5')">5</button>
+            <button onclick="data('6')">6</button>
+            <button onclick="data('7')">7</button>
+            <button onclick="data('8')">8</button>
+            <button onclick="data('9')">9</button>
+            <button onclick="data('0')">0</button>
+            <!-- <button onclick="data('00')">00</button> -->
+            <button onclick="data('000')">000</button>
+            <button onclick="data('+')">+</button>
+            <button onclick="data('-')">-</button>
+            <button onclick="data('/')">/</button>
+            <button onclick="data('*')">*</button>
+            <button onclick="allclear()">AC</button>
+            <button onclick="screen.value=''">DEL</button>
+            <button onclick="calculation()" id="equeal2">=</button>
+            <!-- <input type="button" value="AC" onclick="display.value=''">
+            <input type="button" value="DE" onclick="display.value=display.value.toString().slice(0,-1)"> -->
+
+           
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,53 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+box-sizing: border-box;
+font-size: 5vw;
+color: rgb(12, 92, 198);
+
+}
+
+#container{
+border: px solid red;
+margin: 5% 20%;
+
+
+
+}
+button{
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px blue;
+}
+button:hover{
+ color: yellow;
+background-color:black;
+
+}
+
+#main_body{
+border: 3px solid red;
+display: grid;
+grid-template-columns: 20% 20% 20% 20%;
+gap: 20px;
+border-radius: 20px;
+padding: 10px;
+background-color: transparent;
+box-shadow: 0px 3px 15px rgb(26, 216, 26);
+}
+
+#screen
+{
+    text-align: right;
+    border-radius: 10px;
+border: 2px solid green;
+height: 10vh;
+box-shadow: 0px 3px 15px orangered;
+
+}
+#equeal2
+{
+    /* border: 20px solid green; */
+    width: 26vw;
+}
+
